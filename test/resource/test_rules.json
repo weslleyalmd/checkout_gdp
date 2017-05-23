@@ -1,0 +1,42 @@
+[
+  {
+    "type"          : "twoforone",
+    "client"        : "UNILEVER",
+    "product"       : "classic",
+    "eligible_qtty" : "3"
+  },
+  {
+    "type"          : "twoforone",
+    "client"        : "FORD",
+    "product"       : "classic",
+    "eligible_qtty" : "5"
+  },
+  {
+    "type"          : "discount",
+    "client"        : "FORD",
+    "product"       : "standout",
+    "eligible_qtty" : "0",
+    "new_price"     : "309.99"
+  },
+  {
+    "type"          : "discount",
+    "client"        : "FORD",
+    "product"       : "premium",
+    "eligible_qtty" : "3",
+    "new_price"     : "389.99"
+  },
+  {
+    "type"          : "discount",
+    "client"        : "APPLE",
+    "product"       : "standout",
+    "eligible_qtty" : "0",
+    "new_price"     : "299.99"
+  },
+  {
+    "type"          : "discount",
+    "client"        : "NIKE",
+    "product"       : "premium",
+    "eligible_qtty" : "0",
+    "new_price"     : "379.99"
+  }
+]
