@@ -9,7 +9,7 @@ class DiscountRule
   end
 
   def apply(items, client)
-    if @applicable_client == client
+    if @applicable_client.downcase == client.downcase
       selected_items = items.select{ |i| i.code == @code}
       selected_items.each{ |item| item.price = @new_price } if selected_items.size >= @eligible_qtty
     end

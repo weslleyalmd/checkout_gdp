@@ -6,7 +6,7 @@ class TwoForOneRule
   end
 
   def apply(items, client)
-    if @applicable_client == client
+    if @applicable_client.downcase == client.downcase
       selected_items = items.select{ |i| i.code == @code}
       if selected_items.size >= @eligible_qtty.to_i
         selected_items.each_slice(@eligible_qtty.to_i) do |item, item_free|
